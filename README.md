@@ -1,18 +1,23 @@
-# message
+ ### 项目总结
+ 
+ 1.电信通企业信息平台项目,通过vue-cli搭建的脚手架 , 配合使用
+ 
+   vuex,element-ui,vue-router实现
 
-> A Vue.js project
+ 2.基于vue-cli的脚手架来创建划分组件依次来实现功能
+   
+   * 通过pages创建的文件夹针对不同功能来划分组件 , 实现判断用
+   
+     户用户名密码登录情况 , 人员查询 , 员工工作信息存储 等功能
+     
+     的实现 。
+     
+   * 通过vue-router实现页面功能实现之后的跳转
+ 
+   * 通过vuex实现对于员工数据的管理
+  
+ 3. 遇到的问题
 
-## Build Setup
-
-``` bash
-# install dependencies
-npm install
-
-# serve with hot reload at localhost:8080
-npm run dev
-
-# build for production with minification
-npm run build
-```
-
-For detailed explanation on how things work, consult the [docs for vue-loader](http://vuejs.github.io/vue-loader).
+   *  通过使用vuex请求的数据没有渲染出来
+    
+   *  对于员工的筛选功能有问题
